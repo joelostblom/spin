@@ -390,7 +390,7 @@ def get_inputs():
         "touchpad":    ["PS/2 Synaptics TouchPad",
                         "SynPS/2 Synaptics TouchPad"],
         "nipple":      ["TPPS/2 IBM TrackPoint"],
-        "stylus":      ["Wacom ISDv4 EC Pen stylus"]
+        "stylus":      ["Wacom ISDv4 EC Pen"]
     }
     device_names = {}
     for device, keyphrases in devices_and_keyphrases.iteritems():
